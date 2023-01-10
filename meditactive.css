@@ -1,0 +1,323 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f0d2f6;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #000000;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+/*+/inizio NavBar/**/
+.menutext {
+  color: #c24ef7be;
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration: none;
+
+}
+
+.flower {
+  /*+/img logo/**/
+  height: 100%;
+
+}
+
+.header .logo {
+  padding-left: 60px;
+  height: 70px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: #ecc5f4;
+  top: 0px;
+
+}
+
+.menu {
+  margin-top: 0px;
+  padding-right: 90px;
+
+
+}
+
+.menu>li {
+  display: inline;
+  margin-right: 100px;
+}
+
+.menu>li:last-of-type {
+  margin-right: 80px;
+}
+
+.button {
+  background-color: #c24ef7be;
+  color: rgb(70, 13, 75);
+  font-size: 25px;
+  width: 180px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/*+/fine NavBar/**/
+
+/*+/inizio sezione1/**/
+.part1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+
+}
+
+.iphone {
+  /*+/img1/**/
+  height: 450px;
+  margin-right: 250px;
+  margin-left: 100px;
+
+}
+
+.text1 {
+  display: flex;
+  text-align: justify;
+  padding-left: 60px;
+  font-size: 40px;
+
+}
+
+.purple-text {
+  color: #9904dff6;
+  font-size: 45px;
+
+}
+
+.text2 {
+  font-size: 25px;
+  ;
+
+}
+
+.purle-text2 {
+  color: #c24ef7be;
+  font-size: 35px;
+}
+
+#lanostraidea {
+  padding-bottom: 45px;
+}
+
+/*/fine sezione1/*/
+/*/inizio la nostra idea/*/
+.h-purple {
+  padding-left: 60px;
+  font-size: 55px;
+  margin-top: 50px;
+  padding-bottom: 15px;
+  color: #9904dff6;
+}
+
+.part2 {
+  display: flex;
+  margin-left: 60px;
+  font-size: 35px;
+}
+
+.img2 {
+  /*+/img2/**/
+  margin-left: 200px;
+  height: 400px;
+}
+
+/*/fine la nostra idea/*/
+/*/inizio come funziona/*/
+.part3 {
+  display: flex;
+  padding-left: 60px;
+  font-size: 35px;
+}
+
+.img3 {
+  margin-left: 200px;
+
+}
+
+.h-pink {
+  color: #c24ef7be;
+  font-size: 35px;
+  padding-left: 60px;
+  margin-top: 80px;
+  padding-bottom: 15px;
+}
+
+.part3-b {
+  display: flex;
+  padding-left: 60px;
+  font-size: 35px;
+}
+
+.imgactivecoin {
+  margin-left: 50px;
+  height: 350px;
+}
+
+.tree {
+  height: 350px;
+
+}
+
+#comefunziona {
+  padding-bottom: 45px;
+}
+
+/*/fine come funziona/*/
+
+.plans-box {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 70px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.plan {
+  font-size: 23px;
+  font-weight: bold;
+  color: #c24ef7be;
+}
+
+.plan-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+
+.button2 {
+  background-color: #c24ef7be;
+  color: rgb(70, 13, 75);
+  font-size: 25px;
+  width: 180px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#p-plans {
+  padding-bottom: 20px;
+}
+
+#plans {
+  padding-bottom: 55px;
+}
+
+
+
+
+/*/inizio chi siamo/*/
+.part4 {
+  display: flex;
+  padding-left: 60px;
+  font-size: 28px;
+}
+
+#chisiamo {
+  padding-bottom: 45px;
+}
+
+/*/fine chi siamo/*/
+/*/inizio per un mondo green/*/
+.part5 {
+  display: flex;
+  padding-left: 60px;
+  font-size: 25px;
+}
+
+.h-pink2 {
+  color: #c24ef7be;
+  font-size: 35px;
+  padding-left: 60px;
+  margin-top: 110px;
+}
+
+.green5 {
+  margin-top: 50px;
+}
+
+.imggreen {
+  margin-left: 150px;
+  height: 500px;
+  margin-bottom: 300px;
+}
+
+/*/fine per un mondo green/*/
+footer {
+  font-size: 20px;
+  background-color: rgb(250, 183, 246);
+  padding-top: 10px;
+}
+
+footer .logo {
+  height: 90px;
+}
+
+.container {
+  padding: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menutext2 {
+  color: #443838;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.voice2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.copy {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: .25rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(250, 183, 246);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c24ef7be;
+  border-radius: .25rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9904dff6;
+}
